@@ -1,26 +1,40 @@
 # 🛍 Customer Purchase Analysis – Data Analytics Project
 
-This project explores customer purchase behavior using Python and a small retail dataset. The goal is to extract trends, top customers, and best-selling items using real-world data analysis techniques.
+This project analyzes customer purchase patterns from a retail dataset using Python and pandas. It focuses on monthly sales trends, top customers, and best-selling items.
 
-## 📊 Dataset
-- 5 columns: Invoice, Customer, Date, Item, Quantity, Price
-- Created a `Total` column and extracted `Month`
+## 📁 Dataset Overview
+The dataset contains:
+- InvoiceNo
+- Customer
+- Date
+- Item
+- Quantity
+- Price
 
-## 🧠 Analysis Performed
-- Monthly sales trend visualization using line plot
-- Grouped data by month and total revenue
-- Data cleaning, datetime handling, and aggregation
+A new column `Total` was created (Quantity × Price), and `Month` was extracted from the date.
 
-## 🔧 Tools Used
+## 🔍 Key Analyses
+- Monthly total sales trends using line plot
+- Revenue grouped by month
+- Cleaned and structured the dataset for business-ready use
+
+## 🧰 Tools Used
 - Python (Google Colab)
-- Pandas
-- Seaborn & Matplotlib
+- pandas
+- matplotlib
+- seaborn
 
-## ✅ Skills Demonstrated
-- DataFrame manipulation
-- Grouping & summarizing data
-- Date/time feature engineering
-- Trend visualization
+## 📊 Skills Demonstrated
+- Data wrangling and datetime handling
+- Grouping and aggregation in pandas
+- Data visualization
+- Exploratory Data Analysis (EDA)
 
-## 🔗 Output
-View the full notebook and charts in this repo.
+---
+
+🎯 **Goal:** Provide actionable insights from transaction data
+
+👨‍💻 Check the Jupyter notebook to explore the full analysis.
+
+![Monthly Sales Trend](sales_trend.png)
+
