@@ -1,0 +1,6 @@
+InvoiceNo,Customer,Date,Item,Quantity,Price,Total
+INV001,Alice,2024-01-05,T-Shirt,2,300,600
+INV002,John,2024-01-08,Jeans,1,1200,1200
+INV003,Alice,2024-02-01,Shoes,1,2000,2000
+INV004,Bob,2024-02-10,Hat,3,150,450
+INV005,Emily,2024-03-15,T-Shirt,2,300,600
